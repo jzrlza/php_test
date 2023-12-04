@@ -1,0 +1,21 @@
+{
+    "name": "user/php_test",
+    "description": "Testing PHP",
+    "autoload": {
+        "psr-4": {
+            "User\\PhpTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jzrlza",
+            "email": "parinvut12345@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5",
+        "twig/twig": "^3.0",
+        "symfony/templating": "^6.4",
+        "symfony/http-foundation": "^7.0"
+    }
+}
